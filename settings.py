@@ -1,12 +1,10 @@
 def getACCESS_TOKEN():
-    return 'XXXX'
+    return '808029651062943750-DxmsQ86qmilsAapZZBGkCqujqyhOwKv'
 def getACCESS_SECRET():
-    return 'XXXX'
+    return 'G5TIqTN7GlfMiJ0ZM0dAW7MVJkw5DZXzb90tq76IzCMY1'
 def getCONSUMER_KEY():
-    return 'XXXX'
+    return 'uBUbLlC1fzlrssBdmcoI4vnUY'
 def getCONSUMER_SECRET():
-    return 'XXXX'
+    return 'fFSuFmkHwXm1MGFvHT4GMsWQiTgp3L15wBgmXbY8i2QTOj3uM8'
 def getDataFileName():
     return "twitterData.txt"
-def getNumberOfLinesLimit():
-    return 30000
