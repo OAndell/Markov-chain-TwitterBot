@@ -1,10 +1,10 @@
 def getACCESS_TOKEN():
-    return '808029651062943750-DxmsQ86qmilsAapZZBGkCqujqyhOwKv'
+    return 'XXXX'
 def getACCESS_SECRET():
-    return 'G5TIqTN7GlfMiJ0ZM0dAW7MVJkw5DZXzb90tq76IzCMY1'
+    return 'XXXX'
 def getCONSUMER_KEY():
-    return 'uBUbLlC1fzlrssBdmcoI4vnUY'
+    return 'XXXX'
 def getCONSUMER_SECRET():
-    return 'fFSuFmkHwXm1MGFvHT4GMsWQiTgp3L15wBgmXbY8i2QTOj3uM8'
+    return 'XXXX'
 def getDataFileName():
     return "twitterData.txt"
