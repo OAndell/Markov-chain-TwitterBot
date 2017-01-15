@@ -2,7 +2,8 @@ from twitter import *
 import time
 import settings
 import tweetGenerator
-
+import TweetStreamer
+import _thread
 
 # Removes half of saved tweets, while saving the newest.
 def clearOldData():
@@ -18,6 +19,7 @@ CONSUMER_KEY = settings.getCONSUMER_KEY()
 CONSUMER_SECRET = settings.getCONSUMER_SECRET()
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
+_thread.start_new_thread(TweetStreamer.stream, ())
 # Start bot loop
 while True:
     time.sleep(24 * 60 * 60)
